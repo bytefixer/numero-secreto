@@ -5,7 +5,7 @@
 // paragrafo.innerHTML = "Escolha um número entre 1 e 10";
 
 let listaNumSorteados = [];
-let limiteNum = 10;
+let limiteNum = 100;
 let numSecreto = randomNum();
 let tentativas = 1;
 
@@ -17,7 +17,7 @@ function display(tag, texto){
 
 function displayInicio(){
     display("h1", "Jogo do Número Secreto");
-    display("p", "Escolha um número entre 1 e 10");
+    display("p", "Escolha um número entre 1 e 100");
 }
 displayInicio();
 
